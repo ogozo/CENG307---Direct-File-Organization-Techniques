@@ -7,7 +7,7 @@ namespace CENG307_HW1
     class Record
     {
         public int RecordValue { get; set; }
-        public int Link { get; set; } //ushort olsaydı 16bit 
+        public int Link { get; set; } 
         public Record(int record, short link)
         {
             RecordValue = record;

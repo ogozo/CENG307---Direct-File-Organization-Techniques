@@ -2,7 +2,7 @@
 
 namespace CENG307_HW1
 {
-    // OGUZHAN TONGADUR - 201180045
+    // OGUZHAN TONGADUR
     internal class Program
     {
         static void FillTables(BEISCHHashTable beisch, ComputedChaining cc, BTTable bttable, int elementCount)

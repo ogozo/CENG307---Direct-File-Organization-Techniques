@@ -84,7 +84,7 @@ namespace CENG307_HW1
                     {
                         isFound = false;
                         foundedIndex = leftIndex;
-                        BTNode childNode = new BTNode(-1, leftIndex); // data onemsiz, agacta index bulmaya calisiyoruz
+                        BTNode childNode = new BTNode(-1, leftIndex);
                         childNode.parent = parentNode;
                         childNode.isRight = false;
                         tempTable.Add(childNode);
